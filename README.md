@@ -1,6 +1,8 @@
 # Frequent_Itemsets
 Apriori algorithm and Multiple Minimum Support(Web Data Mining by Bing Liu)
+
 #The Task
+
   The "Bag of Words" data set from the UCI Machine Learning Repository contains five text collections in the form of bags-of-words. The URL for the UCI repository is
   http://archive.ics.uci.edu/ml/datasets/Bag+of+Words.
 
@@ -8,13 +10,14 @@ Apriori algorithm and Multiple Minimum Support(Web Data Mining by Bing Liu)
 
   First use the standard a priori algorithm with a fixed global value for minimum support. Try out different values for minimum support.
 
-  Next, explore the multiple minimum support approach described in Section 2.4 of the book Web Data Mining by Bing Liu. See also Mining Association Rules with Multiple Minimum   Supports, Liu et al, KDD 1999. You can assign minimum support values to words based on the frequency with which they occur across each text collection.
+  Next, explore the multiple minimum support approach described in Section 2.4 of the book Web Data Mining by Bing Liu. See also Mining Association Rules with Multiple         Minimum   Supports, Liu et al, KDD 1999. You can assign minimum support values to words based on the frequency with which they occur across each text collection.
 
   For this part, skip the Enron email dataset and work only with the NIPS full papers and KOS blog entries datasets.
   
 #The Data
-    In each of the text collections, each document is summarized as a bag (multiset) of words. The individual documents are identified by document IDs and the words are           identified by word IDs.
 
+    In each of the text collections, each document is summarized as a bag (multiset) of words. The individual documents are identified by document IDs and the words are           identified by word IDs.
+    
     After some cleaning up, in each collection the vocabulary of unique words has been truncated to only keep words that occurred more than ten times overall in that             collection.
 
     For each collection XYZ:
